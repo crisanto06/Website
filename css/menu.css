@@ -1,0 +1,80 @@
+
+.marketing-site-hero {
+  background: url("https://cdn.schlotzskys.com/-/media/schlotzskys/menu/sandwiches/smoked-turkey-breast_874x440.jpg?v=1&d=20180104T171725Z") top right no-repeat;
+  height: 35vh;
+  background-size: cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.marketing-site-hero2 {
+  background: url("https://hips.hearstapps.com/del.h-cdn.co/assets/16/21/1464036871-delish-summer-salads-chicken-fajita.jpg") top right no-repeat;
+  height: 35vh;
+  background-size: cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.marketing-site-hero3 {
+  background: url("https://food.unl.edu/documents/turkey-wrap-cc-web.png") top right no-repeat;
+  height: 45vh;
+  background-size: cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.marketing-site-hero4 {
+  background: url("https://i1.wp.com/www.imaginediet.co.za/wp-content/uploads/2016/10/smoothies.jpg?resize=759%2C422&ssl=1") top right no-repeat;
+  height: 65vh;
+  background-size: cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+
+@media screen and (min-width: 40em) {
+  .marketing-site-hero {
+    background-position: center center;
+  }
+}
+
+.marketing-site-hero-content {
+  max-width: 75rem;
+  margin: 30 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.marketing-site-hero-content h1 {
+  color: #fefefe;
+  font-size: 80px;
+}
+
+.marketing-site-hero-content .button.round {
+  border-radius: 5000px;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 40em) {
+  .marketing-site-hero-content {
+    padding-left: 50%;
+  }
+}
